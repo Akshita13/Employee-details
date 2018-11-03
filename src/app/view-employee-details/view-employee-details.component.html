@@ -1,0 +1,5 @@
+<div *ngFor='let data of viewData;let i=index'>
+        <p>{{data | json}}</p>
+        
+    <button (click)="delete(i)">delete</button>
+    </div>
